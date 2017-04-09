@@ -1,4 +1,4 @@
-var permitsPath = 'data/permits.json';
+var permitsPath = 'data/neighbors_bp.json';
 var httpRequest = new XMLHttpRequest();
 httpRequest.onreadystatechange = function(){
   if (httpRequest.readyState === XMLHttpRequest.DONE && httpRequest.status === 200){
