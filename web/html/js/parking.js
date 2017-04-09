@@ -15,7 +15,7 @@ function makeMeterMarker(m) {
 	var mark = L.marker(coo, {icon: i});
 	
 	mark.addTo(map);
-	var extent = (3+Math.pow(m.properties.count, 3)*.001)
+	var extent = (2+Math.pow(m.properties.count, 3)*.0005)
 	mark._icon.style.borderTopWidth = extent + "px";
 	mark._icon.style.top = "-" + extent + "px";
 	return mark;
