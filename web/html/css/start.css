@@ -33,10 +33,11 @@ div.leaflet-popup-content-wrapper {
 }
 
 #map div.meter-marker {
-  width:3px !important;
+  width:2px !important;
   height:0px !important;
   box-shadow:1px 0px 0px darkorange;
   border-top:solid orange 20px;
+  border-bottom: solid black 1px;
   top:-10px;
 }
 #map div.meter-marker:after {
